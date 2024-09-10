@@ -1,0 +1,186 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+}
+
+header {
+    background-color: #76b2e0;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+nav {
+    background-color: #f8f8f8;
+    padding: 10px;
+    text-align: center;
+}
+
+nav a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #c8c973;
+}
+
+.banner {
+    background-image: url('images/banner.jpg');
+    background-size: cover;
+    color: white;
+    text-align: center;
+    padding: 110px 0;
+    font-size: 1.5em;
+}
+
+.content-section {
+    padding: 20px;
+    text-align: center;
+}
+
+.content-section h2 {
+    color: #000000;
+}
+
+.section-img {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    margin: 20px 0;
+}
+
+  /* Footer Section with Professional Gradient */
+footer {
+    background: linear-gradient(135deg, #2c3e50, #34495e);
+    color: #fff;
+    padding: 40px 0;
+    text-align: center;
+}
+
+/* Footer headings with glowing effect */
+footer h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #fff;
+    text-shadow: 0 0 10px rgba(255, 255, 255, 0.8), 
+                 0 0 20px rgba(255, 255, 255, 0.6);
+    animation: heading-glow 2s ease-in-out infinite alternate;
+}
+
+/* Glowing Animation */
+@keyframes heading-glow {
+    from {
+        text-shadow: 0 0 10px rgba(255, 255, 255, 0.8), 
+                     0 0 20px rgba(255, 255, 255, 0.6);
+    }
+    to {
+        text-shadow: 0 0 20px rgba(255, 255, 255, 1), 
+                     0 0 30px rgba(255, 255, 255, 1);
+    }
+}
+
+/* Footer container styling */
+.footer-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.footer-section {
+    flex: 1;
+    margin: 10px;
+    padding: 10px;
+}
+
+.footer-section a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.footer-section a:hover {
+    color: #f1c40f;
+}
+
+/* Footer bottom */
+.footer-bottom {
+    padding: 20px 0;
+    border-top: 1px solid #777;
+    margin-top: 20px;
+    font-size: 14px;
+    color: #bbb;
+}
+
+  
+
+.social-icons img {
+    width: 30px;
+    margin: 0 10px;
+}
+
+.back-to-top {
+    display: inline-block;
+    margin-top: 10px;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.back-to-top:hover {
+    color: #f0f8ff;
+}
+
+/* Page Transition */
+body {
+    transition: opacity 0.5s ease-in-out;
+}
+
+/* Smooth Hover Effect for Social Icons */
+.social-icons img:hover {
+    transform: scale(1.2);
+    transition: transform 0.3s ease-in-out;
+}
+
+/* Form Styles */
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+
+form input, form textarea {
+    width: 80%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+form button {
+    padding: 10px 20px;
+    background-color: #a3cf81;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #9cd894;
+}
+/* Gradient Background */
+.gradient-bg {
+    background: linear-gradient(135deg, #f06, #ffba00);
+    background-size: 200% 200%;
+    animation: gradient-animation 5s ease infinite;
+    color: white;
+    padding: 40px;
+    text-align: center;
+    border-radius: 10px;
+}
+
